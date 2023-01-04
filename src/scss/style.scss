@@ -1,0 +1,30 @@
+@import "fonts";
+@import "null";
+@import "header";
+@import "mainScreen";
+@import "textBlock";
+@import "articles";
+@import "slider";
+@import "swiper";
+@import "shop";
+@import "subscribe";
+@import "footer";
+
+
+.body {
+	font-family: Lato;
+}
+.body._lock {
+	overflow: hidden;
+}
+.container {
+	max-width: 1130px;
+	padding: 0 15px;
+	margin: 0 auto;
+	min-width: 0; 
+}
+
+
+
+
+

@@ -1,0 +1,31 @@
+.slider {
+	overflow: hidden;
+	min-width: 0;
+	background-color: #f7f7f7;
+	padding: 100px 0 50px 0;
+	&__body {
+	}
+	&__item {
+	}
+	&__icon {
+		text-align: center;
+		margin: 0 0 20px 0;
+	}
+	&__title {
+		color: #353738;
+		font-size: 18px;
+		font-weight: 700;
+		margin: 0 0 20px 0;
+	}
+	&__text {
+		text-align: center;
+		color: #848789;
+		font-size: 24px;
+		font-style: italic;
+		line-height: 34px;
+		padding: 0 30px;
+	}
+	@media (max-width: 800px) {
+		padding: 50px 0 20px 0;
+	}
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('html/head.html', {
+		"title": "project"
+	})
+	<body class="body">
+		<div class="wrapper">
+			<main class="page">
+				@@include('html/header.html', {})
+				@@include('html/mainScreen.html', {})
+				<div class="content">
+					@@include('html/textBlock.html', {})
+					@@include('html/articles.html', {})
+					@@include('html/slider.html', {})
+					@@include('html/shop.html', {})
+					@@include('html/subscribe.html', {})
+				</div>
+				@@include('html/footer.html', {})
+			</main>
+			<script src="js/app.min.js"></script>
+		</div>
+	</body>
+	
+</html>
+
